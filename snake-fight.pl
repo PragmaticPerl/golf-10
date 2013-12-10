@@ -35,7 +35,7 @@ for my $script (<script/*.pl>) {
     $s->add_snake($cb);
 }
 
-#$s->add_snake('human');
+$s->add_snake('human');
 $s->show_snakes;
 my @scores = $s->loop();
 $s->end;
