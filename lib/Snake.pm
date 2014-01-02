@@ -185,8 +185,8 @@ sub gameover {
     );
     $win->attron( COLOR_PAIR(1) );
     $win->refresh;
-    halfdelay(100);
-    $win->getch();
+#    halfdelay(100);
+#    $win->getch();
 }
 
 sub collision {
